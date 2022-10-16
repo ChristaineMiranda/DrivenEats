@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#E5E5E5;
+    
+}
+@media (max-width:414px){
+.conteudo{/*conteudo total do site*/
+    width: 100%;   
+    background-color: #E5E5E5;
+    
+  
+}
+.barra-superior{
+    height: 92px;
+    width: 100%;
+    background-color: #CF2B2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 19px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.titulo-pagina{
+    font-size: 44px;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+
+}
+.subtitulo{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.menu{/* Caixas de rolagem de cada opção*/
+    display: flex;
+    overflow-x: scroll;   
+    
+}
+
+.nome{
+    font-family: 'Righteous', cursive;
+    margin-bottom: 15px;
+    margin-left: 19px;
+    font-size: 19px;
+}
+img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.opcao{
+    margin-left: 19px;
+    width: 172px;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item{/*Nome do item*/
+    font-size: 16px;
+    font-weight: 700;
+}
+.descricao{
+    font-size: 15px;
+    color: #a6a6aa;
+    font-weight: 300;
+}
+.valor{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.tipo{/*Caixas das seções*/
+    height: 300px;
+    margin-bottom: 20px;
+   
+    
+}
+.prato{
+    margin-top:122px ;    
+}
+.sobremesa{
+    margin-bottom: 92px
+}
+.principal{
+    height: 216px;
+}
+.bebida{
+    height: 202px;
+}
+.doce{
+    height: 197px;
+}
+.barra-inferior{
+    height: 92px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.arredondada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+}
+}   
