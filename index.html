@@ -20,33 +20,33 @@
 
         <div class="prato tipo "> <!--Seção de opções de prato principal-->
             <div class="nome">Primeiro, seu prato</div>
-            <div class="menu"><!-- Caixa com rolagem de opções-->
-                <div class="opcao principal frango" onclick="selecionaitem('.frango','.escolhaFrango')">
+            <div class="menu pratoprincipal"><!-- Caixa com rolagem de opções-->
+                <div class="opcao principal frango" onclick="selecionaprato('.frango','.escolhaFrango')">
                     <img src="prato.png"class="imagem"/>
                     <p class="item">Frango Yin Yang</p>
                     <p class="descricao">Um pouco de batata, um pouco de salada</p>
-                    <p class="valor">R$ 14,90</p>
+                    <p class="valor">14.90</p>
                     <div class="icone check escolhaFrango"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao principal carne" onclick="selecionaitem('.carne','.escolhaCarne')">
+                <div class="opcao principal carne" onclick="selecionaprato('.carne','.escolhaCarne')">
                     <img src="carne.jpg" class="imagem"/>
                     <p class="item">Carne assada</p>
                     <p class="descricao">Um pouco de batata, um pouco de salada</p>
-                    <p class="valor">R$ 16,90</p>
+                    <p class="valor">16.90</p>
                     <div class="icone check escolhaCarne"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao principal omelete" onclick="selecionaitem('.omelete','.escolhaOmelete')">
+                <div class="opcao principal omelete" onclick="selecionaprato('.omelete','.escolhaOmelete')">
                     <img src="omelete.jpg"class="imagem"/>
                     <p class="item">Omelete</p>
                     <p class="descricao">Acompanha arroz e feijão</p>
-                    <p class="valor">R$ 12,90</p>
+                    <p class="valor">12.90</p>
                     <div class="icone check escolhaOmelete"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao principal feijoada" onclick="selecionaitem('.feijoada','.escolhaFeijoada')">
+                <div class="opcao principal feijoada" onclick="selecionaprato('.feijoada','.escolhaFeijoada')">
                     <img src="feijoada.jpg"class="imagem"/>
                     <p class="item">Feijoada</p>
                     <p class="descricao">Acompanha batata, salada e farofa</p>
-                    <p class="valor">R$ 20,90</p>
+                    <p class="valor">20.90</p>
                     <div class="icone check escolhaFeijoada"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div><!--Fim do último item-->
             </div><!--fim da caixa de rolagem de opções de pratos-->               
@@ -54,33 +54,33 @@
 
         <div class="bebidas tipo">
             <div class="nome">Agora, sua bebida</div>
-            <div class="menu"><!-- Caixa com rolagem de opções-->
-                <div class="opcao bebida coca" onclick="selecionaitem('.coca','.escolhaCoca')">
+            <div class="menu opcoesdebebida"><!-- Caixa com rolagem de opções-->
+                <div class="opcao bebida coca" onclick="selecionabebida('.coca','.escolhaCoca')">
                     <img src="coca.png"class="imagem"/>
                     <p class="item">Coca cola</p>
                     <p class="descricao">lata de 350ml</p>
-                    <p class="valor">R$ 7,90</p>
+                    <p class="valor">7.90</p>
                     <div class="icone check escolhaCoca"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao bebida suco" onclick="selecionaitem('.suco','.escolhaSuco')">
+                <div class="opcao bebida suco" onclick="selecionabebida('.suco','.escolhaSuco')">
                     <img src="suco.jpg" class="imagem"/>
                     <p class="item">Suco do dia</p>
                     <p class="descricao">Hoje: laranja</p>
-                    <p class="valor">R$ 4,90</p>
+                    <p class="valor">4.90</p>
                     <div class="icone check escolhaSuco"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao bebida sprite" onclick="selecionaitem('.sprite','.escolhaSprite')">
+                <div class="opcao bebida sprite" onclick="selecionabebida('.sprite','.escolhaSprite')">
                     <img src="sprite.jpg"class="imagem"/>
                     <p class="item">Sprite</p>
                     <p class="descricao">lata de 350ml</p>
-                    <p class="valor">R$ 6,90</p>
+                    <p class="valor">6.90</p>
                     <div class="icone check escolhaSprite"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao bebida guarana" onclick="selecionaitem('.guarana','.escolhaGuarana')">
+                <div class="opcao bebida guarana" onclick="selecionabebida('.guarana','.escolhaGuarana')">
                     <img src="gua.jpg"class="imagem"/>
                     <p class="item">Guaraná Antártica</p>
                     <p class="descricao">lata de 350ml</p>
-                    <p class="valor">R$ 6,90</p>
+                    <p class="valor">6.90</p>
                     <div class="icone check escolhaGuarana"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div><!--Fim do último item-->
             </div><!--fim da caixa de rolagem de opções de bebida-->
@@ -88,40 +88,40 @@
 
         <div class="sobremesa tipo">
             <div class="nome">Por fim, sua sobremesa</div>
-            <div class="menu"><!-- Caixa com rolagem de opções de sobremesa-->
-                <div class="opcao doce pudim" onclick="selecionaitem('.pudim','.escolhaPudim')">
+            <div class="menu opcoesDeSobremesa"><!-- Caixa com rolagem de opções de sobremesa-->
+                <div class="opcao doce pudim" onclick="selecionasobremesa('.pudim','.escolhaPudim')">
                     <img src="pudim.png"class="imagem"/>
                     <p class="item">Pudim de leite</p>
                     <p class="descricao">Leve, aerado e delicioso</p>
-                    <p class="valor">R$ 8,90</p>
+                    <p class="valor">8.90</p>
                     <div class="icone check escolhaPudim"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao doce brigadeiro" onclick="selecionaitem('.brigadeiro','.escolhaBrigadeiro')">
+                <div class="opcao doce brigadeiro" onclick="selecionasobremesa('.brigadeiro','.escolhaBrigadeiro')">
                     <img src="brig.jpg" class="imagem"/>
                     <p class="item">Brigadeiro</p>
                     <p class="descricao">O clássico da sobremesa</p>
-                    <p class="valor">R$ 4,90</p>
+                    <p class="valor">4.90</p>
                     <div class="icone check escolhaBrigadeiro"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao doce maracuja"onclick="selecionaitem('.maracuja','.escolhaMaracuja')">
+                <div class="opcao doce maracuja"onclick="selecionasobremesa('.maracuja','.escolhaMaracuja')">
                     <img src="mousse.jpg"class="imagem"/>
                     <p class="item">Mousse maracujá</p>
                     <p class="descricao">Feita com ingredientes naturais</p>
-                    <p class="valor">R$ 10,90</p>
+                    <p class="valor">10.90</p>
                     <div class="icone check escolhaMaracuja"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div>
-                <div class="opcao doce chocolate" onclick="selecionaitem('.chocolate','.escolhaChocolate')">
+                <div class="opcao doce chocolate" onclick="selecionasobremesa('.chocolate','.escolhaChocolate')">
                     <img src="choc.jpg"class="imagem"/>
                     <p class="item">Mousse chocolate</p>
                     <p class="descricao">Meio amargo e sem lactose</p>
-                    <p class="valor">R$ 14,90</p>
+                    <p class="valor">14.90</p>
                     <div class="icone check escolhaChocolate"><ion-icon name="checkmark-circle"></ion-icon></div>
                 </div><!--Fim do último item-->
             </div><!--fim da caixa de rolagem de opções da sobremesa-->
         </div><!--fim da seção de sobremesas-->
 
         <div class="barra-inferior">
-            <div class="arredondada">Selecione os 3 itens<br>para fechar o pedido</div>
+            <a href="https://wa.me/<5521968800713>"><div class="arredondada">Selecione os 3 itens<br>para fechar o pedido</div></a>
         </div>
     </div>
     
